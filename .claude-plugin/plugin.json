@@ -1,0 +1,9 @@
+{
+  "name": "ralph",
+  "version": "1.0.0",
+  "description": "Self-referential development loop + brutally honest code roaster for Claude Code",
+  "author": {
+    "name": "dnh33",
+    "email": "3074491+dnh33@users.noreply.github.com"
+  }
+}

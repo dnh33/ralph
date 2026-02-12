@@ -1,0 +1,17 @@
+{
+  "description": "Ralph loop engine — intercepts Stop events to maintain autonomous development loops",
+  "hooks": {
+    "Stop": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash ${CLAUDE_PLUGIN_ROOT}/scripts/ralph-loop-hook.sh",
+            "timeout": 10
+          }
+        ]
+      }
+    ]
+  }
+}
